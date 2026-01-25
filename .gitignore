@@ -1,203 +1,37 @@
 # ============================================================================
-# .gitignore - Files and Folders to Exclude from Git Repository
+# .gitignore - Minimal Configuration to Upload All Project Files
 # ============================================================================
-# This file specifies which files and directories should NOT be pushed to GitHub
-# GitHub will ignore these patterns when committing and pushing
-
-# ============================================================================
-# COMPILED EXECUTABLES & BUILD ARTIFACTS
-# ============================================================================
-# Compiled executable files
-*.exe
-*.out
-*.o
-*.a
-*.so
-*.dylib
-*.dll
-
-# Executable in output directory
-output/
-output/*
-
-# Build directories (if using cmake or make)
-build/
-Build/
-CMakeFiles/
-cmake_build/
+# This is a minimal .gitignore that allows all project files to be uploaded
+# Only system-specific files are excluded
 
 # ============================================================================
-# OBJECT FILES & DEPENDENCIES
-# ============================================================================
-*.o
-*.obj
-*.elf
-
-# Precompiled headers
-*.gch
-*.pch
-
-# ============================================================================
-# IDE & EDITOR SPECIFIC FILES
-# ============================================================================
-# Visual Studio Code
-.vscode/
-.vscode/settings.json
-.vscode/launch.json
-.vscode/tasks.json
-.vscode/extensions.json
-*.code-workspace
-
-# Visual Studio
-.vs/
-*.vcxproj
-*.vcxproj.filters
-*.sln
-*.user
-
-# Sublime Text
-*.sublime-workspace
-*.sublime-project
-
-# Vim/Neovim
-.swp
-.swo
-*~
-.vim/
-
-# Emacs
-*~
-\#*\#
-.\#*
-
-# JetBrains IDEs (CLion, IntelliJ)
-.idea/
-*.iml
-out/
-
-# Xcode
-*.xcodeproj/
-*.xcworkspace/
-
-# ============================================================================
-# LARGE LIBRARY FILES (Optional - Include only if SFML is too large)
-# ============================================================================
-# SFML Library - Intentionally included for easier project setup
-# Commented out to allow SFML to be pushed to GitHub
-# SFML/
-# SFML/*
-# include/
-# lib/
-
-# ============================================================================
-# TEMPORARY & SYSTEM FILES
+# OS SPECIFIC FILES ONLY
 # ============================================================================
 # macOS
 .DS_Store
 .AppleDouble
 .LSOverride
 ._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 
 # Windows
 Thumbs.db
 Desktop.ini
-.windows-terminal-context-menu.json
-
-# Linux
-.~
-
-# Temporary files
-*.tmp
-*.temp
-*.bak
-*.backup
-*.swp
-*.swo
-*~
 
 # ============================================================================
-# DEBUGGING & PROFILING FILES
+# IDE CACHE (Optional - Remove if you want to include IDE settings)
 # ============================================================================
-# GDB debugging files
-*.gdb
-.gdbinit
-
-# Valgrind profiling
-callgrind.out
-cachegrind.out
-
-# Core dumps
-core
-core.*
+# Visual Studio Code cache
+.vscode/.history
 
 # ============================================================================
-# LOG & OUTPUT FILES
+# END OF .gitignore
 # ============================================================================
-*.log
-debug.log
-build.log
-compilation.log
+# All other files including:
+# - Source code (.cpp, .hpp, .h)
+# - Executables (.exe)
+# - Libraries (SFML/)
+# - Resource files (.ttf, .wav)
+# - Build output (output/)
+# - Documentation (README.md)
+# Will be uploaded to GitHub
 
-# ============================================================================
-# RESOURCE FILES (Optional - Include only if too large)
-# ============================================================================
-# Large binary files (uncomment if you want to exclude)
-# *.wav
-# *.mp3
-# *.ogg
-# *.flac
-# *.mp4
-# *.avi
-
-# ============================================================================
-# VSCODE EXTENSION CACHE
-# ============================================================================
-.vscode-test/
-.vscode/extensions/
-
-# ============================================================================
-# ENVIRONMENT FILES
-# ============================================================================
-.env
-.env.local
-.env.*.local
-
-# ============================================================================
-# DEPENDENCY FOLDERS (Package Managers)
-# ============================================================================
-node_modules/
-vcpkg/
-conan/
-
-# ============================================================================
-# DOCUMENTATION BUILD ARTIFACTS
-# ============================================================================
-docs/_build/
-docs/.build/
-site/
-
-# ============================================================================
-# OS SPECIFIC
-# ============================================================================
-# Windows
-*.lnk
-
-# Linux
-.cache/
-
-# ============================================================================
-# COMPILER CACHE
-# ============================================================================
-.ccls-cache/
-.clangd/
-
-# ============================================================================
-# NOTES & TEMPORARY PROJECT FILES
-# ============================================================================
-TODO.txt
-NOTES.txt
-*.todo
-*.note
