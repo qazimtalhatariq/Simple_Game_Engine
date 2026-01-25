@@ -82,12 +82,12 @@ out/
 # ============================================================================
 # LARGE LIBRARY FILES (Optional - Include only if SFML is too large)
 # ============================================================================
-# SFML Library - Usually installed separately
-# Uncomment below if you want to exclude SFML (recommended for GitHub)
-SFML/
-SFML/*
-include/
-lib/
+# SFML Library - Intentionally included for easier project setup
+# Commented out to allow SFML to be pushed to GitHub
+# SFML/
+# SFML/*
+# include/
+# lib/
 
 # ============================================================================
 # TEMPORARY & SYSTEM FILES
