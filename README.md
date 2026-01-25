@@ -1,4 +1,4 @@
-# Enhanced Game Engine - Final Project
+# Simple 2D Game Engine - 3rd Smester OOP Project
 
 ## Project Overview
 
