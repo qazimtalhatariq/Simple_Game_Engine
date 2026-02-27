@@ -1,5 +1,7 @@
 # Enhanced Game Engine - Final Project
 
+![Enhanced Game Engine Screenshot](assets/game_screenshot.png)
+
 ## Project Overview
 
 This is an **Enhanced Game Engine** built in C++ using the **SFML (Simple and Fast Multimedia Library)** framework. It's a feature-rich 2D game that demonstrates object-oriented programming principles with a complete game loop, collision detection, audio/visual feedback, and an intuitive UI system.

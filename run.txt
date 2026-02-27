@@ -1,0 +1,31 @@
+How to run this project (Windows - CMD)
+
+Prerequisites:
+- You must have a C++ compiler available in CMD: g++ (MinGW-w64).
+- This project already includes SFML headers and libs inside the "SFML\" folder.
+- Required SFML .dll files are in the project root (same folder as main.cpp).
+
+Step 1) Open Command Prompt (CMD)
+- Press Win + R, type: cmd, press Enter
+
+Step 2) Go to the project folder
+
+cd /d "D:\BSCS\3rd Smester\Object Oriented Programming\Final_Project (Simple_Game_Engine)\Simple_Game_Engine"
+
+Step 3) Compile (build) the game
+
+g++ -Wall -Wextra -g3 -I.\SFML\include main.cpp -o output\main.exe -L.\SFML\lib -lsfml-graphics -lsfml-audio -lsfml-window -lsfml-system
+
+Step 4) Run the game
+
+output\main.exe
+
+Common issues (quick fixes):
+- If CMD says: 'g++' is not recognized...
+  - Install MinGW-w64, then add its "bin" folder to your PATH environment variable.
+  - Reopen CMD and run: g++ --version
+
+- If the game closes instantly / says DLL is missing...
+  - Make sure the SFML *.dll files stay in the project root folder (where you run the exe from).
+  - Always run it from this folder (do NOT double-click main.exe from another working directory):
+    cd /d "...\Simple_Game_Engine"  then  output\main.exe
